@@ -1,0 +1,204 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+form{
+box-shadow: 2px 2px 3px 3px rgb(194, 194, 194);
+border-radius: 5px ;
+width: 400px;
+
+
+}
+
+span{
+  color: rgb(255, 1, 1);
+
+}
+
+.formPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.done{
+height: 40px;
+  width: 300px;
+margin-left: 60px;
+color:rgb(14, 224, 14);
+}
+h2{
+  margin-bottom:5px;
+}
+
+input{
+width: 300px;
+height: 40px;
+margin-top: 25px;
+padding-left:10px ;
+
+}
+
+.Name{
+  margin-top: 5px;
+}
+
+input::placeholder{
+font-size: 15px;
+}
+
+
+
+input:focus{
+outline-color: rgb(83, 140, 179);
+}
+
+a{
+  color: black;
+}
+.box{
+  width:25px;
+height: 15px;
+}
+
+.submit{
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  background:linear-gradient(to right,rgb(75, 124, 170),rgb(37, 121, 218),rgb(37, 197, 218),rgb(39, 187, 224));
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+.login{
+  margin-top: 30px;
+}
+
+.check{
+  margin-top: 0px;
+
+}
+
+p{
+font-size: 15px;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+.logo{
+  width: 10%;
+}
+
+.searchBar{
+  width: 400px;
+  height: 30px;
+}
+
+.Regs{
+  border: none;
+  background-color:  rgb(233, 30, 30);
+  border-radius:5px ;
+  width: 100px;
+  height: 30px;
+  color:white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.Regs:hover{
+  background-color: red;
+  color: white;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book{
+  border-radius: 5px;
+  box-shadow: 2px 1px 2px 1px rgb(224, 224, 224);
+  width:200px;
+ height: 350px;
+}
+
+.book:hover{
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.main{
+  display: grid;
+  grid-template-columns: repeat(6,200px);
+  grid-row-gap: 10px;
+ column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.star{
+  width: 10%;
+}
+
+p{
+  line-height: 1px;
+}
+
+.goHome{
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  border:none;
+   border-radius:5px ;
+   background-color:  rgb(233, 30, 30);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.goHome:hover{
+  background-color: red;
+  color: white;
+}
+
+@media(max-width:425px){
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2,200px); 
+ 
+  }
+
+  .logo{
+    width: 20%;
+  }
+  
+  .searchBar{
+    width: 200px;
+    height: 30px;
+  }
+  
+  .Regs{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+  
+  }
+
+  
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+}
